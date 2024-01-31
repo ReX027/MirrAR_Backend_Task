@@ -12,7 +12,7 @@ This is a backend project that implements a product API for MirrAR. Below, you w
   - [Endpoints](#endpoints)
 - [Architectural Decisions](#architectural-decisions)
 - [Testing](#testing)
-- [PostMan](#postman)
+- [Postman](#postman)
 - [Other Instructions](#other-instructions)
 
 ## Getting Started
