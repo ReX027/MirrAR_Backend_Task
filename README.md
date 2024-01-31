@@ -231,7 +231,7 @@ This project uses the following technologies:
 
 ## Postman
 
-- [Postman Collection](./Postman/Ecommerce_backend.postman_collections.json)
+- [Postman Collection](./Postman/Ecommerce_backend.postman_collection.json)
 - [Postman Environment](./Postman/Ecommerce_backend.postman_environment.json)
 
 ## Other Instructions
