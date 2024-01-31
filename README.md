@@ -1,6 +1,6 @@
-# MirrAR Backend Mini Project
+# MirrAR Backend Task
 
-This is a backend project that implements a product API for MirrAR. Below, you will find comprehensive documentation on how to run the project, interact with the API, details on architectural decisions, and other necessary instructions.
+This is a backend project that implements a product API for an e-commerce system using Node.js. Below, you will find comprehensive documentation on how to run the project, interact with the API, details on architectural decisions, and other necessary instructions.
 
 ## Table of Contents
 
