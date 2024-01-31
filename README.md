@@ -12,6 +12,7 @@ This is a backend project that implements a product API for MirrAR. Below, you w
   - [Endpoints](#endpoints)
 - [Architectural Decisions](#architectural-decisions)
 - [Testing](#testing)
+- [PostMan](#postman)
 - [Other Instructions](#other-instructions)
 
 ## Getting Started
@@ -227,6 +228,11 @@ This project uses the following technologies:
     ```bash
     npm test
     ```
+
+## Postman
+
+- [Postman Collection](./Postman/Ecommerce_backend.postman_collections.json)
+- [Postman Environment](./Postman/Ecommerce_backend.postman_environment.json)
 
 ## Other Instructions
 
