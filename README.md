@@ -2,6 +2,10 @@
 
 This is a backend project that implements a product API for an e-commerce system using Node.js. Below, you will find comprehensive documentation on how to run the project, interact with the API, details on architectural decisions, and other necessary instructions.
 
+# Note
+
+I encountered issues in Test Driven Development due to ES6 module format. So, the testing code will not work as expected for now.
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
