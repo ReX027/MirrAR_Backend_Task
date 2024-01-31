@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "18f1ec51-ae88-4dc3-a894-2b207f49fc7a",
+		"name": "Ecommerce_backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31951590"
+	},
+	"item": [
+		{
+			"name": "product",
+			"item": [
+				{
+					"name": "createProduct",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\": \"My new product is here\",\r\n    \"name\": \"Productwrr\",\r\n    \"price\": 1000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/product/create",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"product",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getProduct",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/product/latest",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"product",
+								"latest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "searchProduct",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/product/latest",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"product",
+								"latest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateProduct",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Iphone\",\r\n    \"description\": \"Desc is changed\",\r\n    \"price\": 5000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/product/update/:id",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"product",
+								"update",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "65b8c5eb9db69a0baed785f8"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteProduct",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"IphoneNew\",\r\n    \"description\": \"DescNew is changed\",\r\n    \"price\": 50,\r\n    \"variants\": [\r\n                {\r\n                    \"name\": \"VariantX\",\r\n                    \"sku\": \"123456\",\r\n                    \"stockCount\": 10\r\n                },\r\n                {\r\n                    \"name\": \"VariantY\",\r\n                    \"sku\": \"789012\",\r\n                    \"additionalCost\": 15,\r\n                    \"stockCount\": 15\r\n                }\r\n            ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/product/update/:id",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"product",
+								"update",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "65b8c5369db69a0baed785f4"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
